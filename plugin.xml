@@ -2,14 +2,14 @@
 
 <plugin
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-silent-mode-salesfloor"
+    id="cordova-plugin-silent-mode"
     version="1.0.0">
 
     <name>SilentMode</name>
 
     <description>The plugin allow to verify if the phone is currently in silent mode.</description>
 
-    <repo>https://github.com/salesfloor/cordova-silent-mode.git</repo>
+    <repo>https://github.com/wxc666/cordova-silent-mode.git</repo>
 
     <keywords>silent mode</keywords>
 
@@ -48,7 +48,7 @@
                 <param name="android-package" value="com.cordova.plugins.silentmode.SilentMode" />
             </feature>
         </config-file>
-        <source-file 
+        <source-file
             src="src/android/SilentMode.java"
             target-dir="src/com/cordova/plugins/silentmode/"
         />
