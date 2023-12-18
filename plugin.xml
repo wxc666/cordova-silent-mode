@@ -28,7 +28,7 @@
     </js-module>
 
     <!-- ios -->
-    <platform name="ios">
+<!--    <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="SilentMode">
                 <param name="ios-package" value="CDVSilentModePlugin" />
@@ -40,7 +40,7 @@
 
         <header-file src="src/ios/CDVSilentModePlugin.h" />
         <source-file src="src/ios/CDVSilentModePlugin.m" />
-    </platform>
+    </platform>-->
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
